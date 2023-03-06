@@ -1,0 +1,29 @@
+footer {
+    position: relative;
+    height: auto;
+    background-color: var(--dark-background);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding: 25px;
+}
+footer ul {
+    list-style: none;
+    margin-top: 5px;
+}
+footer ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+@media (max-width: 480px) {
+    footer{
+        flex-direction: column;
+        text-align: center;
+    }
+    footer section{
+        margin: 10px 0;
+    }
+}
